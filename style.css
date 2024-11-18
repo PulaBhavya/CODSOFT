@@ -1,0 +1,134 @@
+/*General Styling*/
+body{
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f4f4f9;
+}
+.conatiner{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+h1{
+    color: whitesmoke;
+}
+h2{
+    color:black;
+}
+h3{
+    color:yellowgreen;
+}
+p{
+    line-height:1.6;
+
+}
+/*header styles*/
+header{
+    background-color: #333333;
+    color:blue;
+    padding: 20px 0;
+    text-align:center;
+}
+header h1{
+    margin:0;
+}
+header.tagline{
+    font-style :italic;
+    font-size: 1.5em;
+}
+/*About Section*/
+#about{
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+#about image{
+    border-radius: 80%;
+    width:auto;
+    height:autos;
+    margin:100px 0;
+    background-position: center;
+}
+#about p{
+    font-size:1.1em;
+    max-width:800px;
+    margin:0 auto;
+    color:coral;
+}
+/*skills section**/
+#skills {
+    background-color:;
+    padding 40px 0;
+    text-align:center;
+}
+#skills ul{
+    list-style-type: none;
+    padding:0;
+}
+#skills li{
+    color:purple;
+    font-size: 1.5em;
+    margin:10px 0;
+}
+/*Project section*/
+#project{
+    display:inline-block;
+    width:45%;
+    margin:10px 2.5;
+    background-color: #fff;
+    padding : 20px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    text-align: left;
+}
+.project img{
+    width :auto;
+    height:auto;
+}
+.project h3{
+    margin-top: 15px;
+}
+/*Resume section*/
+#resume{
+    background-color:#fff;
+    padding: 40px 0;
+    text-align: center;
+}
+#resume .btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: backgroun-color 0.3s;
+}
+#resume .btn:hover {
+    background-color: #555;
+}
+#contact{
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+/*footer section*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul {
+    list-style-type:none;
+    padding: 0;
+}
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
