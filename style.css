@@ -3,7 +3,7 @@ body{
     font-family: Arial,sans-serif;
     margin:0;
     padding:0;
-    background-color: #f4f4f9;
+    background-color:rgb(150, 231, 204);
 }
 .conatiner{
     width:90%;
@@ -11,124 +11,163 @@ body{
     margin:0 auto;
 }
 h1{
-    color: whitesmoke;
-}
-h2{
+    text-align:center;
     color:black;
 }
-h3{
-    color:yellowgreen;
-}
-p{
-    line-height:1.6;
-
-}
-/*header styles*/
-header{
-    background-color: #333333;
+h2{
     color:blue;
-    padding: 20px 0;
-    text-align:center;
+    font-size:15px;
+    text-align:center
 }
-header h1{
-    margin:0;
+h3{
+    color:green;
+    font-size:30px;
 }
-header.tagline{
-    font-style :italic;
-    font-size: 1.5em;
-}
-/*About Section*/
-#about{
-    background-color: #fff;
-    padding: 40px 0;
-    text-align: center;
-}
-#about image{
-    border-radius: 80%;
-    width:auto;
-    height:autos;
-    margin:100px 0;
-    background-position: center;
-}
-#about p{
-    font-size:1.1em;
-    max-width:800px;
-    margin:0 auto;
-    color:coral;
-}
-/*skills section**/
-#skills {
-    background-color:;
-    padding 40px 0;
-    text-align:center;
-}
-#skills ul{
-    list-style-type: none;
-    padding:0;
-}
-#skills li{
+h4{
     color:purple;
-    font-size: 1.5em;
-    margin:10px 0;
-}
-/*Project section*/
-#project{
-    display:inline-block;
-    width:45%;
-    margin:10px 2.5;
-    background-color: #fff;
-    padding : 20px;
-    box-shadow: 0 0 10px rgb(0,0,0,0.1);
-    text-align: left;
-}
-.project img{
-    width :auto;
-    height:auto;
-}
-.project h3{
-    margin-top: 15px;
-}
-/*Resume section*/
-#resume{
-    background-color:#fff;
-    padding: 40px 0;
-    text-align: center;
-}
-#resume .btn{
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: backgroun-color 0.3s;
-}
-#resume .btn:hover {
-    background-color: #555;
-}
-#contact{
-    background-color: #f9f9f9;
-    padding: 40px 0;
-    text-align: center;
-}
-/*footer section*/
-footer{
-    background-color: #333;
+    font-size: 25px;
+} 
+/* Header Styling */
+header {
+    background-color:aquamarine
     color: white;
     padding: 20px 0;
     text-align: center;
 }
-footer ul {
-    list-style-type:none;
-    padding: 0;
+
+header h1 {
+    margin-bottom: 10px;
 }
-footer li {
-    display: inline;
-    margin: 0 10px;
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-footer a{
-    color: white;
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: red;
     text-decoration: none;
+    font-size: 20px;
 }
-footer a:hover{
+
+nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Hero Section */
+.home{
+    background-image:url('https://media.licdn.com/dms/image/D4E12AQGPL0ZM520u7g/article-cover_image-shrink_720_1280/0/1695800404542?e=2147483647&v=beta&t=ldBFxnI3adNbJ5ciMpdlwb6Lah4ikieghxgj8Zbq6eU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:red;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 25pxx;
+    margin-bottom: 30px;
+    line-height: 15.0;
+}
+
+.home .btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home .btn:hover {
+    background-color: #45a049;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.conatiner{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.service-conatiner{
+    margin:5px;
+    border: 1px solid #ccc;
+    float: left;
+    width:390px;
+}
+.service-conatiner img{
+    width:100%;
+    height:auto;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+}
+.service-box {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.service-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
